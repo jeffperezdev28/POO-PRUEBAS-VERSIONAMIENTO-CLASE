@@ -33,7 +33,7 @@ public class tarea1 {
         //EJERCICIO 2 
         //Edad de la madre al dar a luz: Calcular la diferencia de edad entre una madre y su hijo dadas ambas edades.
         
-        /*
+        
         int edadMadre=0;
         int edadHijo=0;
         int diferenciaEdad=0;
@@ -47,7 +47,7 @@ public class tarea1 {
         
         System.out.println("La diferencia de edad es de: " + diferenciaEdad + " años");
         
-        */
+        
         
         //EJERCICIO 3 
         //Conversión de unidades: Convertir pesos colombianos a dólares.
@@ -81,7 +81,26 @@ public class tarea1 {
         System.out.println("El area del circulo es: " + area);
         System.out.println("El perimetro del circulo es: " + perimetro);
         
-
+        //EJERCICIO 5
+        //Cálculo del área y perímetro de un rombo:
+        
+        double diagonalMayor=0;
+        double diagonalMenor=0;
+        double ladoRombo=0;
+        double areaRombo=0;
+        double perimetroRombo=0;        
+        
+        diagonalMayor=Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese el valor de la diagonal mayor"));
+        diagonalMenor=Double.parseDouble(JOptionPane.showInputDialog(null,"Ingrese el valor de la diagonal menor"));
+        ladoRombo=Double.parseDouble(JOptionPane.showInputDialog(null,"Ingrese un lado del rombo"));
+        
+        areaRombo=(diagonalMayor*diagonalMenor)/2;
+        perimetroRombo=4*ladoRombo;
+        
+        System.out.println("El area del rombo es: " + areaRombo);
+        System.out.println("El perimetro del rombo es: " + perimetroRombo);
+        
+        
     }
     
 }
