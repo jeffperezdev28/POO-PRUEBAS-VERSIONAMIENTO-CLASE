@@ -30,6 +30,23 @@ public class tarea1 {
         promedio = (nota1+nota2+nota3)/3;
         System.out.println("El promedio de las 3 calificaciones es: " + promedio);
         
+        //EJERCICIO 2 
+        //Edad de la madre al dar a luz: Calcular la diferencia de edad entre una madre y su hijo dadas ambas edades.
+        
+        
+        int edadMadre=0;
+        int edadHijo=0;
+        int diferenciaEdad=0;
+        
+        System.out.println("===Bienvenido al programa para calcular la diferencia de edad entre una madre y su hijo===");
+        
+        edadMadre=Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la edad de la Madre"));
+        edadHijo=Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la edad del hijo"));
+        
+        diferenciaEdad=edadMadre-edadHijo;
+        
+        System.out.println("La diferencia de edad es de: " + diferenciaEdad + " años");
+        
 
     }
     
