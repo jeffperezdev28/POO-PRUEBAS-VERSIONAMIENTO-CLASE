@@ -64,7 +64,22 @@ public class tarea1 {
         
         System.out.println("El valor en dólares es de: $" + valorDolares + " dólares");
         
+        //EJERCICIO 4
         
+        
+        System.out.println("===Bienvenido a la calculadora de area y perimetro de un circulo===");
+        
+        double radio=0;
+        double pi=3.14159;
+        double area=0;
+        double perimetro;
+        
+        radio=Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese el radio del circulo porfavor"));
+        area=pi*(radio*radio);
+        perimetro=2*pi*radio;
+        
+        System.out.println("El area del circulo es: " + area);
+        System.out.println("El perimetro del circulo es: " + perimetro);
         
 
     }
